@@ -46,6 +46,8 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;   
+    padding-left: 15px;
 }
 
 #regisButton{
@@ -55,7 +57,6 @@ header {
     border: 1px solid #000;
     background: #0266FC;
 }
-
 
 #textRegis a{
     color: #FFF;
@@ -73,7 +74,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    text-decoration: none;
 }
 .titulo_personasFondo{
     flex-shrink: 0;
@@ -184,7 +185,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    width: 320px;
 }
 
 .txtCate{
@@ -198,11 +199,11 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-left: 15px;
+    padding-left: 20px;
     margin: 0px 0px 0px 0px;
 }
 #textcate3{
-    margin-left: 10px !important;
+    margin-left: 0px !important;
 }
 #medidorLandig{
     width: 150px;
@@ -282,7 +283,9 @@ footer{
     box-sizing: border-box; /* Corrige el error de escritura */
     align-items: center; /* Alinea verticalmente al centro */
   }
-  
+#TituCaso-exito{
+    text-align: center;
+}
 .menu li{
     margin-right: 50px;
 }
