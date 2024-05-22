@@ -1,9 +1,6 @@
-
-
-
 header {
     flex-shrink: 0;
-    background-color: #EAEDF6;
+    background-color: white;
     color: white ;
     text-align: left;
     padding: 0px;
@@ -11,6 +8,7 @@ header {
 
 #navbar{
     color: #333;
+    background-color: #EAEDF6;
     padding: 10px 20px;
 }
 .navbar-content{
@@ -18,34 +16,38 @@ header {
     justify-content: space-between;
     align-items: center;
     
-
     color: #000;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Lohit Bengali";
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-
-    
+    line-height: normal;    
 }
-.logo{
+.logo a{
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     color: #05B4FF;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke-width: 1; 
-    -webkit-text-stroke-color: #000;
+
+    text-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.25), 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; 
+    
     font-family: "Lalezar";
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;   
+    padding-left: 15px;
 }
+
 #regisButton{
     width: 224.463px;
     height: 56px;
@@ -54,17 +56,77 @@ header {
     background: #0266FC;
 }
 
-#textRegis{
+#textRegis a{
     color: #FFF;
     text-align: center;
-    -webkit-text-stroke-width: 1;
-    -webkit-text-stroke-color: #000;
-    font-family: Lalezar;
+
+    text-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.25), 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; 
+
+    font-family: "Lalezar";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.titulo_personasFondo{
+    flex-shrink: 0;
+    background: linear-gradient(121deg, #2F9BFF 1.09%, #1C5D99 129.57%);
+    height: 630px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    z-index: 1;
+
+    position: relative;   
+}
+.estrellas{
+    z-index: 2;
+    position: absolute;
+    top: 70%;
+    left: 46.9%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#Landigper1{
+    
+    width: 100%;
+    position: relative;
+    right: -50px;
+    bottom: -5px;
+}
+#Landigper2{
+    
+    width: 100%;
+    position: relative;
+    left: -60px;
+    top: -17px;
+}
+
+#tituloPer{
+    width: 572.18px;
+    color: #FFF;
+    text-align: center !important;
+    text-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.25), 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; 
+    font-family: "Nico Moji";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
 #beneficiosTitulo{
     color: #000;
     font-family: Laila;
@@ -73,6 +135,9 @@ header {
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    margin: 0px 15px 3% 15px;
+    padding-top: 7%;
+    
 }
 
 #beneficios{
@@ -80,12 +145,37 @@ header {
     justify-content: center;
     padding-left: 0%;
 }
+
+.svg-beneficios-block{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin-top: -110px;
+}
+.svg-beneficios-block svg{
+ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.beneficios-block{
+    
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .Categorias {
     display: inline-block;
     padding: 5px;
     box-sizing: border-box;
     padding: 0px 40px 0px 40px ;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 70px 0px 70px;
 
     color: #000;
     text-align: center;
@@ -94,12 +184,12 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    width: 320px;
 
 
   }
 .txtCate{
-    width: 196px;
+    width: 196px !important;
     height: 102px;
     flex-shrink: 0;
     color: #000;
@@ -109,6 +199,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 15px;
     margin: 0px 0px 0px 0px;
 }
 #textcate3{
@@ -131,32 +222,12 @@ header {
 
 main{
     flex-shrink: 0;
-    background: #fefeff;
+    background: #FFFEFE;
+    margin-top: 5.5%;
 }
 #inicio{
     background-color: #FFFEFE;
 }
-#titulo_personas{
-    flex-shrink: 0;
-    background: linear-gradient(121deg, #2F9BFF 1.09%, #1C5D99 129.57%);
-    height: 500px;
-    color: #FFF;
-    text-align: center;
-    -webkit-text-stroke-width: 1;
-    -webkit-text-stroke-color: #000;
-    font-family: "Nico Moji";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 150px;
-    
-}
-
-
-
-
-
 
 body {
     margin: 0;
@@ -180,13 +251,22 @@ footer{
     display: flex;
 }
 .menu li{
-    margin-right: 20px;
+    margin-right: 50px;
 }
 .menu a{
     text-decoration: none;
-    color:#333; 
+    color:#000000; 
+}
+#login{
+    text-decoration: none;
+    color:#000000; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lohit Bengali";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    margin-left: 100%;
+   
 }
 
-.menu a:hover{
-    color:#6ab04c;
-}
