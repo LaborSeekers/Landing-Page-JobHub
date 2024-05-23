@@ -232,12 +232,6 @@ body {
     padding: 0;
 
 }
-  
-footer{
-    background: #1C5D99;
-    height: 397px;
-
-}
 
 .menu{
     list-style: none;
@@ -345,5 +339,118 @@ footer{
 .video{
     flex-shrink: 0;
     text-align: center;
+}
+/**/
+
+/*Footer*/
+  
+footer{
+    background: #1C5D99;
+    display: flex ;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+#logoFooter{
+    color: white;
+    color: var(--Color-White, #FFF);
+    font-feature-settings: 'cv11' on;
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: -0.24px;
+}
+.logoF{
+    display: flex;
+    gap: 13px;
+}
+footer p{
+    color: var(--Neutrals-20, #D6DDEB);
+    font-family: "Epilogue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+footer h2{
+    
+    color: var(--Color-White, #FFF);
+    font-family: "Epilogue";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+}
+.footer-derecha{
+    flex: 1;
+}
+.footer-izquierda{
+    
+    flex:1
+}
+
+.footer-Logo{
+    display: flex;
+    
+}
+
+.logoDescrFooter{
+    flex:1.9;
+    padding-left: 100px;
+}
+.aboutFooter{
+    flex:1;
+    padding-left: 15px;
+}
+
+.contacto{
+    display: flex;
+}
+.recursos-footer{
+    flex:0.5;
+   
+}
+
+.notif-footer{
+    flex:1;
+}
+#notif-footerTXT{
+    width: 70% ;
+}
+.footer-redes{
+    padding-left: 330px;
+}
+.footer-redes img{
+ margin: 9px;
+ 
+}
+.footer-copyright{
+    padding-top: 3.5%;
+    padding-left: 100px;
+    color: var(--Color-White, #FFF);
+    font-family: "Epilogue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+}
+#sub-buton{
+    background-color: #0266FC;
+    width: 138px;
+    height: 53px;
+    font-family: "Epilogue";
+    box-shadow: none; 
+    border: none;     
+    outline: none;    
+    color: white;
+}
+#sub-form{
+    width: 218px;
+    height: 50px;
+    text-align: center;
+    font-family: "Epilogue";
+    color: #A8ADB7;
 }
 /**/
