@@ -269,7 +269,7 @@ footer{
   }
 .cuadro {
     width: 475px;
-    height: 720px;
+    height: auto;
     background-color: #d9d9d9;
     border: 1px solid #ccc;
     display: flex;
@@ -347,3 +347,97 @@ footer{
     text-align: center;
 }
 /**/
+
+#Testimonios {
+    padding: 20px;
+    background: linear-gradient(to right, #D9D9D9 50%, #FFF 50%);
+}
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+  
+.Izquierda, .Derecha {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.Izquierda {
+    fill: #D9D9D9;
+}
+  
+.Derecha {
+    background: #FFF;
+}
+  
+.circulo {
+    border-radius: 50%;
+    margin-right: 20px; 
+    width: 180px; 
+    height: 189px; 
+    object-fit: cover; 
+}
+  
+h1 {
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Nico Moji";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+h4 {
+    color: #000;
+    font-family: "Nico Moji";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+  
+    .Izquierda, .Derecha {
+        flex: none;
+        width: 100%;
+    }
+    #Testimonios {
+        background: #D9D9D9;
+        background-image: none; 
+        padding: 0px ;
+    }
+    .Izquierda {
+        background-color: #D9D9D9; 
+        padding: 5px;
+    }
+
+    .Derecha {
+        background-color: #FFF; 
+        padding: 5px;
+    }
+}
+
+.Desarrolladores, .Empleadores {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.Desarrolladores {
+    margin-bottom: 20px; 
+}
+
+.Empleadores {
+    margin-bottom: 23px;
+}
