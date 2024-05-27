@@ -26,6 +26,32 @@ header {
     font-weight: 400;
     line-height: normal;
 }
+.navbar-izquierda{
+    flex:2;
+    display: flex;
+}
+.navbar-navegacion{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 4%;
+}
+.navbar-derecha{
+    flex:1;
+    display: flex;
+}
+
+.navbar-login{
+    flex:1;
+    justify-content: center;
+    display: flex;
+}
+.navbar-boton{
+    flex:1;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
 
 
 .logo a{
@@ -53,7 +79,8 @@ header {
 }
 
 #regisButton{
-    width: 15%;
+    width: 90%;
+    height: 70%;
     border: 1px solid #000;
     background: #0266FC;
     margin-right: 1%;
@@ -544,7 +571,7 @@ footer h2{
 #cuadrantes-titulo {
     text-align: center;
     font-family: "Lalezar";
-    font-size: 36px;
+    font-size: calc(36px - calc(16px - 1vw));
     margin: 20px 0;
     color: #333;
 }
@@ -580,7 +607,7 @@ footer h2{
     margin-top: 10px;
     color: #333;
     font-family: "Lalezar";
-    font-size: 16px;
+    font-size: calc(16px - calc(4px - 0.25vw));
 }
 .videoC{
         width: 890px; /* Tamaño inicial del contenedor del video */
@@ -628,7 +655,7 @@ footer h2{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     font-family: "Nico Moji";
-    font-size: 40px;
+    font-size: calc(40px - calc(16px - 1vw));
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -658,7 +685,7 @@ footer h2{
 .container-about-us-derecha h2{
     color: #000;
     font-family:"Lalezar";
-    font-size: 48px;
+    font-size: calc(48px - calc(16px - 1vw));
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -672,7 +699,7 @@ footer h2{
     -1px  1px 0 #000,
     1px  1px 0 #000;
     font-family: "Lalezar";
-    font-size: 24px;
+    font-size: calc(24px - calc(8px - 0.5vw));
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -858,14 +885,19 @@ footer h2{
     }
     .recursos-footer{
         flex: 1;
-    }
-    .menu, #regisButton, #login{
         display: none;
-        overflow: hidden;
     }
-    .logo{
-        margin-left: 24%;
-       
+    .aboutFooter{
+        display: none;
+    }
+    .navbar-navegacion{
+        display: none;
+    }
+    .notif-footer{
+        display: none;
+    }
+    .navbar-derecha{
+        flex:3
     }
     video{
         
@@ -879,6 +911,20 @@ footer h2{
         height: 100%;
         width: 100%;
         align-items: center;
+    }
+   .titulo_personasFondo{
+        height: 200px;
+   }
+   #Landigper1{
+        display: none;
+    }
+    #Landigper2{
+        display: none;
+       
+    }
+    .cuadrante{
+        width:70%;
+        gap: 10px;
     }
 }
 
