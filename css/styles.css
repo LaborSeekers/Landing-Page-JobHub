@@ -589,60 +589,6 @@ footer h2{
         align-items: center;
 }
 /**/
-@media(max-width:768px){
-    #beneficios{
-        flex-direction: column;
-        align-items: center;
-    }
-    #cuadros-seccion{
-        flex-direction: column;
-        align-items: center;
-    }
-    .cuadro{
-        width: 70%;
-        
-    }
-    footer{
-        flex-direction: column;
-        justify-content: center;
-        padding: 5px;
-    }
-    .footer-izquierda, .footer-derecha, .contacto, .footer-Logo{
-        flex-direction: column;
-    }
-    .logoF{
-        justify-content: center;
-    }
-    .logoDescrFooter{
-        padding: 0;
-        text-align: center;
-    }
-    .recursos-footer{
-        flex: 1;
-    }
-    .menu, #regisButton, #login{
-        display: none;
-        overflow: hidden;
-    }
-    .logo{
-        margin-left: 24%;
-       
-    }
-    video{
-        
-        overflow: hidden;
-    }
-    video {
-        width: 100%; 
-        height: 70%; 
-    }
-    .videoC{
-        height: 100%;
-        width: 100%;
-        align-items: center;
-    }
-}
-
 #Testimonios {
     padding: 20px;
     background: linear-gradient(to right, #D9D9D9 50%, #FFF 50%);
@@ -733,8 +679,209 @@ footer h2{
     padding-right: 10%;
     margin-top: 0px;
 }
+/*BusquedaEmpleo*/
+#busca-empleo{
+    display: flex;
+}
+.busquedaEmpleo-izquierda{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.busquedaEmpleo-izquierda-superior{
+    flex:1;
+    margin-top: 8%;
+    text-align: center;
+}
+.busquedaEmpleo-izquierda-superior h2{
+    text-align: left;
+    margin: 0px;
+    padding-left: 15%;
+}
+.busquedaEmpleo-izquierda-superior p{
+    color: #26A4FF;
+    font-family: "Epilogue";
+    font-size: calc(20px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    padding-left: 15%;
+    text-align: left !important;
+}
+.busquedaEmpleo-izquierda-superior img{
+    width: 80%;
+    padding-left: 15%;
+}
+
+.busquedaEmpleo-izquierda-inferior{
+    flex:1;
+}
+.nav-buscador{
+   margin-left: 15%;
+}
+#buscador{
+    border: none;
+    border-bottom: 2px solid var(--Neutrals-60, #7C8493);
+
+    color: var(--Neutrals-60, #7C8493);
+    font-family: "Epilogue";
+    font-size: calc(16px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    width: 30%;
+}
+#buscador-button{
+    width: 25%;
+    height: 40px;
+    border: 1px solid #000;
+    background: #0266FC;
+
+    color: var(--Neutrals-0, #FFF);
+    text-align: center;
+    font-family: "Epilogue";
+    font-size: calc(18px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+}
+.nav-buscador p{
+    color: #515B6F;
+    font-family: "Epilogue";
+    font-size: calc(20px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7; 
+}
+.empresas{
+    display: flex;
+    gap: 30px;
+    margin-top:5%;
+    margin-left: 15%;
+}
+#alicor-logo{
+    width: 15%;
+}
+#github-logo{
+    width: 12%;
+}
+#intercorp-logo{
+    width: 20%;
+
+}
+
+#location-box{
+    border: none;
+    width: 30%; 
+    border-bottom: 2px solid var(--Neutrals-60, #7C8493);
+    color: var(--Neutrals-60, #7C8493);
+    font-family: "Epilogue";
+    font-size: calc(16px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+
+#busquedaEmpleo-t1{
+    color: var(--Neutrals-100, #25324B);
+    font-feature-settings: 'cv11' on;
+    font-family: "Laila";
+    font-size: calc(72px - calc(48px - 3vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+#busquedaEmpleo-t2{
+    color: var(--Accents-Blue, #26A4FF);
+    font-feature-settings: 'cv11' on;
+    font-family: "Laila";
+    font-size: calc(72px - calc(48px - 3vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+
+.busquedaEmpleo-derecha{
+    flex:1;
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+}
+#personaEmpleo{
+    width: 50%;
+    z-index: 2;
+    
+}
+#fondoEmpleo{
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    top:-17px;
+    left:0;
+    width: 100%;
+}
+
 
 /**/
+@media(max-width:768px){
+    #beneficios{
+        flex-direction: column;
+        align-items: center;
+    }
+    #cuadros-seccion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuadro{
+        width: 70%;
+        
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+    }
+    .footer-izquierda, .footer-derecha, .contacto, .footer-Logo{
+        flex-direction: column;
+    }
+    .logoF{
+        justify-content: center;
+    }
+    .logoDescrFooter{
+        padding: 0;
+        text-align: center;
+    }
+    .recursos-footer{
+        flex: 1;
+    }
+    .menu, #regisButton, #login{
+        display: none;
+        overflow: hidden;
+    }
+    .logo{
+        margin-left: 24%;
+       
+    }
+    video{
+        
+        overflow: hidden;
+    }
+    video {
+        width: 100%; 
+        height: 70%; 
+    }
+    .videoC{
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column; 
@@ -778,6 +925,39 @@ footer h2{
     .group_precios{
         align-items: center;
         flex-direction: column;
+    }
+    .nav-buscador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+    }
+    #lupa{
+        width: 3%;
+        margin-bottom: 1%;
+    }
+    #location{
+        width: 3%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+    
+    #buscador-button{
+        margin-top: 3%;
+        width: 30%;
+        height: 10%;
+    }
+    .empresas img{
+        width: 15%;
+    }
+    .empresas{
+       margin-left: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .busquedaEmpleo-derecha{
+        display: none;
     }
 }
 
