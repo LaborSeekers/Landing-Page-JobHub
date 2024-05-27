@@ -1,5 +1,1074 @@
-/*Selectores tipo etiqueta html*/
+header {
+    flex-shrink: 0;
+    background-color: white;
+    color: white ;
+    text-align: left;
+    padding: 0px;
+}
+
+#navbar{
+    color: #333;
+    background-color: #EAEDF6;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lohit Bengali";
+    font-size:calc(25px - calc(16px - 1vw)) ;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navbar-izquierda{
+    flex:2;
+    display: flex;
+}
+.navbar-navegacion{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 4%;
+}
+.navbar-derecha{
+    flex:1;
+    display: flex;
+}
+
+.navbar-login{
+    flex:1;
+    justify-content: center;
+    display: flex;
+}
+.navbar-boton{
+    flex:1;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+
+.logo a{
+
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #05B4FF;
+    text-align: center;
+
+    text-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.25), 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; 
+    
+    font-family: "Lalezar";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;   
+    padding-left: 15px;
+}
+
+#regisButton{
+    width: 90%;
+    height: 70%;
+    border: 1px solid #000;
+    background: #0266FC;
+    margin-right: 1%;
+}
+
+#textRegis a{
+    color: #FFF;
+    text-align: center;
+
+    text-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.25), 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; 
+
+    font-family: "Lalezar";
+    font-size: calc(40px - calc(32px - 2vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.titulo_personasFondo{
+    flex-shrink: 0;
+    background: linear-gradient(121deg, #2F9BFF 1.09%, #1C5D99 129.57%);
+    height: 630px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    z-index: 1;
+ 
+}
+#estrellas{
+    z-index: 2;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    padding-top: 5%;
+}
+
+#Landigper1{
+    flex:1;
+    width: 100%;
+    right: -50px;
+    bottom: -5px;
+    position: relative;
+}
+#Landigper2{
+    flex:1;
+    width: 100%;
+    position: relative;
+    left: -60px;
+    top: -17px;
+}
+
+#tituloPer{
+    flex:1;
+    width: 572.18px;
+    color: #FFF;
+    text-align: center !important;
+    text-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.25), 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; 
+    font-family: "Nico Moji";
+    font-size: calc(40px - calc(32px - 2vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#beneficiosTitulo{
+    color: #000;
+    font-family: "Laila";
+    font-size: calc(40px - calc(8px - 0.5vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0px 15px 3% 15px;
+    padding-top: 7%;
+
+}
+
+#beneficios{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+}
+
+.svg-beneficios-block{
+    margin-top: -6.2%;
+}
+
+#fondobene {
+
+ width: 100%;
+ height: 50%;
+
+ z-index: 2;
+ position: absolute;
+}
+
+.beneficios-block{
+    position: relative;
+    z-index: 2;
+
+}
+
+.Categorias {
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    padding: 0px 40px 0px 40px ;
+    margin: 0px 70px 0px 70px;
+    color: #000;
+    text-align: center;
+    font-family: "Marcellus SC";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 320px;
+}
+
+.txtCate{
+    width: 196px !important;
+    height: 102px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Lalezar;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    margin: 0px 0px 0px 0px;
+}
+#textcate3{
+    margin-left: 0px !important;
+}
+#medidorLandig{
+    width: 150px;
+    margin-bottom: 17px;
+}
+#resume{
+    width: 100px;
+}
+#ofertas{
+    width: 145px;
+}
+
+
+
+main{
+    flex-shrink: 0;
+    background: #FFFEFE;
+    margin-top: 5.5%;
+}
+main section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#inicio{
+    background-color: #FFFEFE;
+}
 
 body {
-    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+#cuadros-seccion {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.imagen-cuadro {
+    margin-bottom: 20px; /* Ajusta el valor del margen según sea necesario */
+    display: block; /* Para que los márgenes automáticos funcionen correctamente */
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+.texto-cuadro {
+    border: 1px solid #D9D9D9; /* Define el borde del cuadro de texto */
+    max-width: 394px; /* Establece la anchura máxima del cuadro */
+    height: auto; /* Permite que la altura se ajuste automáticamente al contenido */
+    text-align: center;
+  }
+.cuadro {
+    width: 475px;
+    height: auto;
+    background-color: #d9d9d9;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    font-family: "Laila";
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Corrige el error de escritura */
+    align-items: center; /* Alinea verticalmente al centro */
+  }
+#TituCaso-exito{
+    text-align: center;
+    font-family: "Laila";
+}
+.menu li{
+    margin-right: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color:#000000; 
+}
+#login{
+    text-decoration: none;
+    color:#000000; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lohit Bengali";
+    font-size: calc(25px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    
+   
+}
+
+
+/* Video_Explicacion*/
+
+.layout{
+    display: flex;
+    width: 1086px;
+    height: 107px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    
+} 
+
+.titulo{
+    color: #000;
+    text-align: center;
+    font-family: "League Spartan";
+    font-size: calc(50px - calc(32px - 2vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitulo{
+    color: #000;
+    text-align: center;
+    font-family: "League Spartan";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.video{
+    flex-shrink: 0;
+    text-align: center;
+}
+/**/
+
+/*precios*/
+.main_precios_seccion{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.group_precios{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.seccion_precios{
+
+    width: 370px;
+    height: 502px;
+    flex-shrink: 0;
+    border: 1px solid #CBCBCB;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imagen_precios{
+    width: 309px;
+    height: 208px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: block;
+    margin-left: 30px;
+    margin-top: 29px;
+    margin-right: 30px;
+}
+
+.line_{
+    width: 310px;
+    height: 1px;
+    background: #A4A4A4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+}
+
+.informacion_precios{
+    width: 310px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.tipografia_texto{
+    color: #000;
+    font-family: "League Spartan";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px; /*interlineado*/
+
+}
+
+.btn_plan{
+    width: 227px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #DFDFDF;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 71px;
+
+}
+/*FIn de precios*/
+
+/*Footer*/
+  
+footer{
+    background: #1C5D99;
+    display: flex ;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+#logoFooter{
+    color: white;
+    color: var(--Color-White, #FFF);
+    font-feature-settings: 'cv11' on;
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: -0.24px;
+}
+.logoF{
+    display: flex;
+    gap: 13px;
+}
+.logoF img{
+    padding-top: 9px;
+    width: 12%;
+    height: 10%;
+}
+footer p{
+    color: var(--Neutrals-20, #D6DDEB);
+    font-family: "Epilogue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+footer h2{
+    
+    color: var(--Color-White, #FFF);
+    font-family: "Epilogue";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+}
+.footer-derecha{
+    flex: 1;
+}
+.footer-izquierda{
+    
+    flex:1
+}
+
+.footer-Logo{
+    display: flex;
+    
+}
+
+.logoDescrFooter{
+    flex:1.9;
+    padding-left: 100px;
+}
+.aboutFooter{
+    flex:1;
+    padding-left: 15px;
+
+}
+
+.contacto{
+    display: flex;
+}
+.recursos-footer{
+    flex:0.5;
+}
+
+.notif-footer{
+    flex:1;
+}
+#notif-footerTXT{
+    width: 70% ;
+}
+.footer-redes{     
+    display: flex;
+    justify-content: center;
+}
+.footer-redes img{
+ margin: 9px;
+ 
+}
+.footer-copyright{
+    padding-top: 3.5%;
+    padding-left: 100px;
+    color: var(--Color-White,rgba(255,255,255,0.5) );
+    font-family: "Epilogue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+}
+#sub-buton{
+    background-color: #0266FC;
+    width: 138px;
+    height: 53px;
+    font-family: "Epilogue";
+    box-shadow: none; 
+    border: none;     
+    outline: none;    
+    color: white;
+}
+#sub-form{
+    width: 218px;
+    height: 50px;
+    text-align: center;
+    font-family: "Epilogue";
+    color: #A8ADB7;
+}
+#cuadrantes-titulo {
+    text-align: center;
+    font-family: "Lalezar";
+    font-size: calc(36px - calc(16px - 1vw));
+    margin: 20px 0;
+    color: #333;
+}
+
+#cuadrantes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.cuadrante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.cuadrante img {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 8px;
+}
+
+.texto {
+    margin-top: 10px;
+    color: #333;
+    font-family: "Lalezar";
+    font-size: calc(16px - calc(4px - 0.25vw));
+}
+.videoC{
+        width: 890px; /* Tamaño inicial del contenedor del video */
+        height: 500px;
+        margin: 0 auto;
+        align-items: center;
+}
+/**/
+#Testimonios {
+    padding: 20px;
+    background: linear-gradient(to right, #D9D9D9 50%, #FFF 50%);
+}
+  
+.container-testi {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+  
+.Izquierda, .Derecha {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.Izquierda {
+    fill: #D9D9D9;
+}
+  
+.Derecha {
+    background: #FFF;
+}
+  
+.circulo {
+    border-radius: 50%;
+    margin-right: 20px; 
+    width: 180px; 
+    height: 189px; 
+    object-fit: cover; 
+}
+  
+#Testimonios h1 {
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Nico Moji";
+    font-size: calc(40px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+#Testimomios h4 {
+    color: #000;
+    font-family: "Nico Moji";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0; 
+}
+/*about us*/
+#about-us{
+    display: flex;
+}
+.container-about-us-derecha{
+    flex:1.5;
+}
+.container-about-us-izquierda{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.container-about-us-derecha h2{
+    color: #000;
+    font-family:"Lalezar";
+    font-size: calc(48px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.container-about-us-derecha p{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+    font-family: "Lalezar";
+    font-size: calc(24px - calc(8px - 0.5vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 10%;
+    margin-top: 0px;
+}
+/*BusquedaEmpleo*/
+#busca-empleo{
+    display: flex;
+}
+.busquedaEmpleo-izquierda{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.busquedaEmpleo-izquierda-superior{
+    flex:1;
+    margin-top: 8%;
+    text-align: center;
+}
+.busquedaEmpleo-izquierda-superior h2{
+    text-align: left;
+    margin: 0px;
+    padding-left: 15%;
+}
+.busquedaEmpleo-izquierda-superior p{
+    color: #26A4FF;
+    font-family: "Epilogue";
+    font-size: calc(20px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    padding-left: 15%;
+    text-align: left !important;
+}
+.busquedaEmpleo-izquierda-superior img{
+    width: 80%;
+    padding-left: 15%;
+}
+
+.busquedaEmpleo-izquierda-inferior{
+    flex:1;
+}
+.nav-buscador{
+   margin-left: 15%;
+}
+#buscador{
+    border: none;
+    border-bottom: 2px solid var(--Neutrals-60, #7C8493);
+
+    color: var(--Neutrals-60, #7C8493);
+    font-family: "Epilogue";
+    font-size: calc(16px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    width: 30%;
+}
+#buscador-button{
+    width: 25%;
+    height: 40px;
+    border: 1px solid #000;
+    background: #0266FC;
+
+    color: var(--Neutrals-0, #FFF);
+    text-align: center;
+    font-family: "Epilogue";
+    font-size: calc(18px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+}
+.nav-buscador p{
+    color: #515B6F;
+    font-family: "Epilogue";
+    font-size: calc(20px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7; 
+}
+.empresas{
+    display: flex;
+    gap: 30px;
+    margin-top:5%;
+    margin-left: 15%;
+}
+#alicor-logo{
+    width: 15%;
+}
+#github-logo{
+    width: 12%;
+}
+#intercorp-logo{
+    width: 20%;
+
+}
+
+#location-box{
+    border: none;
+    width: 30%; 
+    border-bottom: 2px solid var(--Neutrals-60, #7C8493);
+    color: var(--Neutrals-60, #7C8493);
+    font-family: "Epilogue";
+    font-size: calc(16px - calc(16px - 1vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+
+#busquedaEmpleo-t1{
+    color: var(--Neutrals-100, #25324B);
+    font-feature-settings: 'cv11' on;
+    font-family: "Laila";
+    font-size: calc(72px - calc(48px - 3vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+#busquedaEmpleo-t2{
+    color: var(--Accents-Blue, #26A4FF);
+    font-feature-settings: 'cv11' on;
+    font-family: "Laila";
+    font-size: calc(72px - calc(48px - 3vw));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+
+.busquedaEmpleo-derecha{
+    flex:1;
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+}
+#personaEmpleo{
+    width: 50%;
+    z-index: 2;
+    
+}
+#fondoEmpleo{
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    top:-17px;
+    left:0;
+    width: 100%;
+}
+
+
+/**/
+@media(max-width:768px){
+    #beneficios{
+        flex-direction: column;
+        align-items: center;
+    }
+    #cuadros-seccion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuadro{
+        width: 70%;
+        
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+    }
+    .footer-izquierda, .footer-derecha, .contacto, .footer-Logo{
+        flex-direction: column;
+    }
+    .logoF{
+        justify-content: center;
+    }
+    .logoDescrFooter{
+        padding: 0;
+        text-align: center;
+    }
+    .recursos-footer{
+        flex: 1;
+        display: none;
+    }
+    .aboutFooter{
+        display: none;
+    }
+    .navbar-navegacion{
+        display: none;
+    }
+    .notif-footer{
+        display: none;
+    }
+    .navbar-derecha{
+        flex:3
+    }
+    video{
+        
+        overflow: hidden;
+    }
+    video {
+        width: 100%; 
+        height: 70%; 
+    }
+    .videoC{
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+   .titulo_personasFondo{
+        height: 200px;
+   }
+   #Landigper1{
+        display: none;
+    }
+    #Landigper2{
+        display: none;
+       
+    }
+    .cuadrante{
+        width:70%;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+  
+    .Izquierda, .Derecha {
+        flex: none;
+        width: 100%;
+    }
+    #Testimonios {
+        background: #D9D9D9;
+        background-image: none; 
+        padding: 0px ;
+    }
+    .Izquierda {
+        background-color: #D9D9D9; 
+        padding: 5px;
+    }
+
+    .Derecha {
+        background-color: #FFF; 
+        padding: 5px;
+    }
+
+    #about-us{
+        flex-direction: column; 
+    }
+    .container-about-us-derecha h2{
+        text-align: center;
+    }
+    .container-about-us-derecha p{
+        text-align: center;
+        justify-content: center;
+        padding: 0px;
+        padding-left: 5%;
+        padding-right:5% ;
+    }
+    .container-about-us-izquierda img{
+        display: none;
+    }
+    .group_precios{
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav-buscador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+    }
+    #lupa{
+        width: 3%;
+        margin-bottom: 1%;
+    }
+    #location{
+        width: 3%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+    
+    #buscador-button{
+        margin-top: 3%;
+        width: 30%;
+        height: 10%;
+    }
+    .empresas img{
+        width: 15%;
+    }
+    .empresas{
+       margin-left: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .busquedaEmpleo-derecha{
+        display: none;
+    }
+}
+
+.Desarrolladores, .Empleadores {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.Desarrolladores {
+    margin-bottom: 20px; 
+}
+
+.Empleadores {
+    margin-bottom: 23px;
+}
+
+.Cabecera{
+    text-align: center;
+}
+
+.Cabecera h2{
+    color: #000;
+    text-align: center; 
+    font-family: Lalezar;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.Pregunta{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.Pregunta select {
+    margin-bottom: 40px; 
+  }
+
+  .Preguntas {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
+    background: #EAEDF6;
+    display: flex;
+    width: 770px;
+    font-family: Bengali; 
+    font-size: 25px; 
+}
+
+@media (max-width: 768px) {
+  .Pregunta select {
+       width: 80%;
+   }
+
+   .Preguntas {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
+    background: #EAEDF6;
+    display: flex;
+    width: 770px;
+    font-family: Bengali; 
+    font-size: calc(25px - calc(17px - 1vw));
+   }
 }

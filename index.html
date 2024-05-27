@@ -3,10 +3,386 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>JobHub</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/marcellus-sc" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Epilogue' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Red Hat Display' rel='stylesheet'>
+  
 </head>
 <body>
-  <h1>JobHub</h1>
+  <header>
+    <nav id="navbar"> 
+      <div class="container">
+        <div class="navbar-content">
+
+          <div class="navbar-izquierda">
+            <div class="navbar-logo">
+              <h1 class="logo"><a href="index.html">JobHub</a></h1>
+            </div>
+            <div class="navbar-navegacion">
+              <ul class="menu">
+                <li><a href="#busca-empleo">Buscar Empleo</a></li>
+                <li><a href="#Testimonios">Testimonios</a></li>
+                <li><a href="#about-us">¿Quienes Somos?</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="navbar-derecha">
+            <div class="navbar-login">
+              <h2><a id="login" href="#login">Accede</a></h2>
+            </div>
+            <div class="navbar-boton">
+              <button id="regisButton"><div id="textRegis"><a href="#registro">Registrate</div></a></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <img id="estrellas" src="assets/Estrellas.png">
+    <div class="titulo_personasFondo">
+      <div id="PersoLanding1">
+        <img src="assets/LandingPersona1.png" alt="landp1" id="Landigper1">
+      </div>
+
+      <h2 id="tituloPer">Los mejores trabajos al alcance de todos</h2>
+
+      <div id="PersoLanding2">
+        <img src="assets/LandingPersona2.png" alt="landp2" id="Landigper2" >
+      </div>
+    </div>
+ 
+
+
+    <div class="svg-beneficios-block">
+      <img id=fondobene src="assets/Rectangle 11.png">
+      <div class="beneficios-block">
+        <h2 id="beneficiosTitulo">Beneficios de usar nuestra plataforma</h2>
+        <div id="beneficios">
+          <div class="Categorias">
+            <img src="assets/medidor.png" alt="Medidor" id="medidorLandig">
+            <h4>Que no te engañen más</h4>
+            <p class="txtCate">Revisa la reputación de las ofertas laborales</p>
+          </div>
+          <div class="Categorias">
+            <img src="assets/cvPerso.png" alt="resume" id="resume" >
+            <h4>Aumenta tu alcance</h4>
+            <p class="txtCate">Crea un perfil dinámico altamente personalizable que resalte tus mayores cualidades</p>
+          </div>
+  
+          <div class="Categorias">
+            <img src="assets/empleo.png" alt="ofertas" id="ofertas" >
+            <h4>Descubre las mejores ofertas</h4>
+            <p class="txtCate" id="textcate3">Te recomendamos las mejores ofertas laborales que se ajusten a tus preferencias</p>
+          
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <div class="layout_1">
+        <h1 class="titulo"> Encuentra trabajos que se adapte a tus necesidades</h1>
+        <h2 class = "subtitulo"> Facilita tu procesos de búsqueda para nuevos candidatos o nuevas experiencias laborales </h2>
+        <div class = "videoC">
+          <video width="890" height = "500" controls>
+            <source src = "assets/detalles.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>   
+
+<!--Busqueda-->
+
+    <section id="busca-empleo">
+
+      <div class="busquedaEmpleo-izquierda">
+        <div class="busquedaEmpleo-izquierda-superior">
+          <h2 id="busquedaEmpleo-t1">Descubre más de</h2>
+          <h2 id="busquedaEmpleo-t2">5000+ ofertas de trabajo</h2>
+          <img src="assets/AdornoDivIzuierda-empleo.png">
+          <p>Una plataforma perfecta para profesionales en busca de nuevos desafios</p>
+        </div>
+        <div class="busquedaEmpleo-izquierda-inferior">
+          <nav class="nav-buscador">
+            <img id="lupa" src="assets/Busqueda-empleo/Lupa.png">
+            <input id="buscador" type="text" placeholder="Título o Palabra Clave">
+            <img id="location" src="assets/Busqueda-empleo/Location.png">
+            <select id="location-box" id="exampleFormControlSelect1">
+              <option>Location</option>
+              <option>Lima, Perú</option>
+              <option>Trujillo, Perú</option>
+              <option>Tumbes, Perú</option>
+              <option>Utah, Estados Unidos</option>
+          </select>
+          <button id="buscador-button">Buscar</button>
+          <p>Con el respaldo de +200 empresas como</p>
+          </nav>
+
+          <div class="empresas">
+            <img id="alicor-logo" src="/assets/Busqueda-empleo/alicorp_logo.png">
+            <img id="github-logo" src="/assets/Busqueda-empleo/Github_logo.png">
+            <img id="Microsoft-logo" src="/assets/Busqueda-empleo/Microsoft.png">
+            <img id="intercorp-logo" src="/assets/Busqueda-empleo/intercorp_logo.png">
+          </div>
+        </div>
+       
+      </div>
+      
+      <div class="busquedaEmpleo-derecha">
+        <img id="fondoEmpleo" src="assets/EmpleoFondo.png">
+        <img id="personaEmpleo" src="assets/LandingPersona3.png">
+      </div>
+
+    </section>
+
+<!--Seccion de precios-->
+
+    <section class="main_precios_seccion">
+      <div class="layout_1"> <!--Titulo para css-->
+        <h1 class="titulo"> Elije el plan que se adapte a tus necesidades</h1>
+      </div>
+      <div class="group_precios">
+
+        <div class="seccion_precios">
+          <img src="assets/planA.png" alt="planA" class="imagen_precios">
+          <hr class="line_">
+          <ul class="informacion_precios">
+            <li class="tipografia_texto"> Informacion 1</li>
+            <li class="tipografia_texto"> Informacion 2</li>
+          </ul>
+          <button class="btn_plan">Conseguir plan A</button>
+        </div>  
+
+        <div class="seccion_precios">
+          <div class="seccion_precios">
+            <img src="assets/planB.png" alt="planB" class="imagen_precios">
+            <hr class="line_">
+            <ul class="informacion_precios">
+              <li class="tipografia_texto"> Informacion 1</li>
+              <li class="tipografia_texto"> Informacion 2</li>
+              <li class="tipografia_texto"> Informacion 3</li>
+            </ul>
+            <button class="btn_plan">Conseguir plan B</button>
+          </div>  
+          
+        </div>
+        
+        <div class="seccion_precios">
+          <div class="seccion_precios">
+            <img src="assets/planC.png" alt="planC" class="imagen_precios">
+            <hr class="line_">
+            <ul class="informacion_precios">
+              <li class="tipografia_texto"> Informacion 1</li>
+              <li class="tipografia_texto"> Informacion 2</li>
+              <li class="tipografia_texto"> Informacion 3</li>
+              <li class="tipografia_texto"> Informacion 4</li>
+            </ul>
+            <button class="btn_plan">Conseguir plan C</button>
+          </div>  
+          
+        </div>
+
+      </div>
+      
+    </section>
+
+
+<!-- Termina la seccion precios-->
+    <h2 id="cuadrantes-titulo">Nuestros Servicios</h2>
+    <section id="cuadrantes">
+      <div class="cuadrante">
+        <img src="assets/Entrevistas.png" alt="Imagen 1">
+        <div class="texto">Entrevistas</div>
+      </div>
+      <div class="cuadrante">
+        <img src="assets/Creador de cv's.png" alt="Imagen 2">
+        <div class="texto">Creador de cv's</div>
+      </div>
+      <div class="cuadrante">
+        <img src="assets/Visualizador de ofertas.png" alt="Imagen 3">
+        <div class="texto">Visualizador de ofertas laborales</div>
+      </div>
+      <div class="cuadrante">
+        <img src="assets/Postulantes.png" alt="Imagen 4">
+        <div class="texto">Postulantes</div>
+      </div>
+      <div class="cuadrante">
+        <img src="assets/Mensajeria.png" alt="Imagen 5">
+        <div class="texto">Mensajería</div>
+      </div>
+      <div class="cuadrante">
+        <img src="assets/Detalles.png" alt="Imagen 6">
+        <div class="texto">Ofertas laborales a detalles</div>
+      </div>
+    </section>
+    <h1 id="TituCaso-exito">Casos de éxito</h1>
+    <section id="cuadros-seccion">
+      <div class="cuadro">
+        <h2 class="titulo-cuadro">Alfredo Suarez</h2>
+        <img src="assets/alfredo.png" alt="Alfredo Suarez" class="imagen-cuadro">
+        <div class="texto-cuadro">Gerente de Genosfera Electronics, comenzo como un joven que buscaba trabajo en diferentes paginas  de ofertas laborales. Hasta que llegó JobHub, logrando obtener un puesto de rango bajo. Con el pasar de los años fue mejorando como empleado y persevero hasta llegar a ser gerente general de la empresa que lo arropo desde sus inicios.</div>
+      </div>
+      <div class="cuadro">
+        <h2 class="titulo-cuadro">Carlos Mendez</h2>
+        <img src="assets/carlos.png"  alt="Carlos Mendez" class="imagen-cuadro"
+        width="250" height="225">
+        <div class="texto-cuadro">Apasionado por la tecnología, buscó empleo durante meses hasta que encontró una vacante en JobHub como técnico de soporte en TechSolutions. Comenzando en un puesto modesto, Con el tiempo y su dedicación, fue promovido repetidamente. Ahora, como Jefe de Desarrollo de Productos, Carlos dirige un equipo talentoso, recordando siempre cómo una oferta en JobHub fue el primer paso hacia su exitosa carrera en TechSolutions.</div>
+      </div>
+      <div class="cuadro">
+        <h2 class="titulo-cuadro">María Rodríguez</h2>
+        <img src="assets/maria.png" alt="María Rodríguez" class="imagen-cuadro">
+        <div class="texto-cuadro">Buscaba trabajo en diversas plataformas sin éxito hasta que encontró una oferta en JobHub para un puesto de asistente de marketing en NovaTech. Comenzando en un puesto de rango bajo, María se destacó por su creatividad y dedicación, aprovechando cada oportunidad para aprender y mejorar. Tras años de esfuerzo y múltiples promociones, fue ascendida a Directora de Marketing, atribuyendo su éxito a la oportunidad inicial en JobHub y al apoyo de la empresa.</div>
+      </div>
+    </section>
+    
+    <section id="Testimonios">
+      <div class="container-testi">
+        <div class="Izquierda">
+          <h1>Desarrolladores</h1>
+          <div class="Desarrolladores">
+            <img src="assets/Desarrollador1.PNG" class="circulo" alt="Desarrollador1">   
+            <h4>"Gracias a TalentSearch, he encontrado mi trabajo ideal en una empresa que realmente valora mis habilidades y contribuciones. La plataforma me permitió explorar una amplia gama de oportunidades y 
+              encontrar la que mejor se adapta a mis objetivos profesionales. Estoy muy agradecido por esta plataforma y la recomendaría a cualquier desarrollador en busca de nuevas oportunidades laborales"</h4>
+          </div>
+          <div class="Desarrolladores"> 
+            <img src="assets/Desarrollador2.PNG" class="circulo" alt="Desarrollador2">
+            <h4>"TalentSearch ha sido fundamental en mi búsqueda de empleo. Me ha proporcionado acceso a una amplia variedad de oportunidades laborales y me ha permitido encontrar un trabajo que se alinea perfectamente con mis habilidades y aspiraciones profesionales. 
+              La plataforma es fácil de usar y ofrece un proceso de solicitud transparente. ¡Definitivamente la recomendaría a mis colegas desarrolladores!"</h4>
+          </div>
+          <div class="Desarrolladores"> 
+            <img src="assets/Desarrollador3.PNG" class="circulo" alt="Desarrollador3">
+            <h4>"Estoy impresionado con la eficacia de TalentSearch en la búsqueda de empleo. La plataforma me ha ayudado a encontrar varias oportunidades interesantes en mi campo y me ha facilitado el proceso de solicitud. 
+              Además, el equipo de soporte ha sido muy receptivo y servicial en todo momento. ¡Sin duda, recomendaría TalentSearch a cualquier desarrollador en busca de nuevas oportunidades laborales!"</h4>
+          </div>
+        </div>
+        <div class="Derecha">
+          <h1>Empleadores</h1>
+          <div class="Empleadores">
+            <img src="assets/Empleador1.PNG" class="circulo" alt="Empleador1">
+            <h4>"Estamos muy impresionados con el servicio que ofrece TalentSearch. Nos ha ayudado a encontrar candidatos altamente calificados que se ajustan perfectamente 
+              a nuestras necesidades. La plataforma es fácil de usar y nos ha permitido agilizar nuestro proceso de contratación de manera significativa. ¡Altamente recomendado!!"</h4>
+          </div>
+          <div class="Empleadores">
+            <img src="assets/Empleador2.PNG" class="circulo" alt="Empleador2">
+            <h4>"Gracias a TalentSearch, hemos podido encontrar a los mejores talentos en el campo de la tecnología. La plataforma nos proporciona una amplia base de datos de profesionales cualificados 
+              y nos permite filtrar y evaluar candidatos de manera eficiente. Estamos muy satisfechos con los resultados obtenidos y continuaremos utilizando este servicio en el futuro."</h4>
+
+          </div>
+          <div class="Empleadores">
+            <img src="assets/Empleador3.PNG" class="circulo" alt="Empleador3">
+            <h4>"TalentSearch ha sido una herramienta invaluable para nuestra empresa. Nos ha ayudado a construir un equipo altamente calificado y diverso, lo que ha sido fundamental para el éxito de nuestro negocio. 
+              La plataforma es intuitiva y fácil de usar, y el equipo de soporte siempre está disponible para ayudarnos en todo momento. ¡Definitivamente recomendaría TalentSearch a otras empresas en busca de talento!"</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq">
+      <div class="Cabecera">
+        <h2>Preguntas Frecuentes</h2>
+      </div>
+      <div class="Intermedio">
+        <div class="Pregunta">
+          <select name="" class="Preguntas">
+            <option value="" >¿Cómo funcionan las recomendaciones de empleo?</option>
+          </select>
+          <select name="" class="Preguntas">
+            <option value="" >¿Cómo puedo cancelar mi cuenta?</option>
+          </select>
+          <select name="" class="Preguntas">
+            <option value="">¿Cómo puedo contactar al soporte técnico?</option>
+          </select>
+          <select name="" class="Preguntas">
+            <option value="" >¿Cómo puedo aplicar a una oferta de trabajo?</option>
+          </select>
+        </div>
+      </div>  
+    </section>
+    <section id="about-us">
+
+        <div class="container-about-us-izquierda">
+          <img src="assets/About-us-img.png">
+        </div>
+        
+        <div class="container-about-us-derecha">
+          <h2>The labor Seekers</h2>
+          <p>Labor Seekers, es una iniciativa formada por 4 estudiantes
+             de la carrera de Ciencias de la Computación de la Universidad
+              Peruana de Ciencias Aplicadas, se da a conocer en cómo revolucionar
+              y facilitar la búsqueda de oportunidades laborales convenientes para
+              el perfil de usuario. La especialidad que tiene Labor Seekers se enfoca
+              en la programación web avanzada, es decir, a fin de favorecer el acceso
+              de los usuarios a ofertas de trabajo de manera sencilla y dinámica. Además,
+              se ha desarrollado un sistema diseñado con el objetivo de mejorar la experiencia
+              de búsqueda laboral.</p>
+          
+        </div> 
+      
+    </section>
+    
+  </main>
+
+  <footer>
+    <div class="footer-izquierda">
+      <div class="footer-Logo">
+        <div class="logoDescrFooter">
+          <div class="logoF">
+            <img src="assets/logoJobHub.png">
+            <h1 id="logoFooter">JobHub</h1>
+          </div>
+          <p>Una plataforma perfecta para profesionales en busca de desafios</p>
+        </div>
+
+        <div class="aboutFooter">
+          <h2>About</h2>
+          <p>Compañias</p>
+          <p>Términos</p>
+          <p>Consejos</p>
+          <p>Politicas de privacidad</p>
+        </div>
+      </div>
+
+      <div class ="footer-copyright">
+        &copy; 2024 JobHub. All rights reserved.
+      </div>
+    </div>
+
+    <div class="footer-derecha">
+      <div class="contacto">
+        <div class="recursos-footer">
+          <h2>Recursos</h2>
+          <p>Planes</p>
+          <p>Guias</p>
+          <p>Noticias</p>
+          <p>Contactanos</p>
+        </div>
+        <div class="notif-footer">
+          <h2>Mantente Informado</h2>
+          <p id="notif-footerTXT">Las últimas noticias del mundo laboral, articulos y más, enviadas a tu correo.</p>
+          <input id="sub-form" type="text" placeholder="Correo Electrónico">
+          <button id="sub-buton">Suscribete</button>
+        </div>
+      </div>
+
+      <div class="footer-redes">
+        <a href=""><img src ="assets/Facebook.png"></a>
+        <a href=""><img src="assets/Instagram.png"></a>
+        <a href=""><img src="assets/LinkedIn.png"></a>
+        <a href=""><img src="assets/Twitter.png"></a>
+        <a href="https://github.com/" target="_blank"><img src="assets/github.png"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
