@@ -975,6 +975,54 @@ footer h2{
     margin-bottom: 23px;
 }
 
+.Cabecera{
+    text-align: center;
+}
 
+.Cabecera h2{
+    color: #000;
+    text-align: center; 
+    font-family: Lalezar;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
 
+.Pregunta{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
 
+.Pregunta select {
+    margin-bottom: 40px; 
+  }
+
+  .Preguntas {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
+    background: #EAEDF6;
+    display: flex;
+    width: 770px;
+    font-family: Bengali; 
+    font-size: 25px; 
+}
+
+@media (max-width: 768px) {
+  .Pregunta select {
+       width: 80%;
+   }
+
+   .Preguntas {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
+    background: #EAEDF6;
+    display: flex;
+    width: 770px;
+    font-family: Bengali; 
+    font-size: calc(25px - calc(17px - 1vw));
+   }
+}
