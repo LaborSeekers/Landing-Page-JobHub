@@ -830,3 +830,19 @@ footer h2{
     font-size: 25px; 
 }
 
+@media (max-width: 768px) {
+  .Pregunta select {
+       width: 80%;
+   }
+
+   .Preguntas {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
+    background: #EAEDF6;
+    display: flex;
+    width: 770px;
+    font-family: Bengali; 
+    font-size: calc(25px - calc(17px - 1vw));
+   }
+}
